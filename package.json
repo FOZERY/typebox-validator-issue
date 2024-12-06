@@ -1,0 +1,18 @@
+{
+  "name": "npm-test",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "@hono/typebox-validator": "^0.3.0",
+    "@sinclair/typebox": "^0.34.11",
+    "hono": "^4.6.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1",
+    "typescript": "^5.7.2"
+  }
+}
